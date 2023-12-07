@@ -22,5 +22,6 @@ def lambda_handler(event, context):
         Granularity='MONTHLY',
         Metrics=['BlendedCost']
     )
+    print('deploy')
     # Вывод информации о расходах
     return response
